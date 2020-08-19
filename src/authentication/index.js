@@ -28,27 +28,27 @@ const Authentication = (props) => {
     const pass = e.target.value;
 
     if (pass.match(/[A-Z]/) != null) {
-      console.log("big words");
+      console.log("big char");
     } else {
-      console.log("not a good");
+      console.log("haven't big char");
     }
 
     if (pass.match(/[0-9]/) != null) {
-      console.log("nums words");
+      console.log("numbers");
     } else {
-      console.log("not a good");
+      console.log("haven't a numbers");
     }
 
     if (pass.match(/[!@#$%^&*]/) != null) {
       console.log("special chars");
     } else {
-      console.log("not a good");
+      console.log("haven't special chars");
     }
 
     if (pass.length > 7) {
       console.log("length password");
     } else {
-      console.log("not a good");
+      console.log("haven't a short");
     }
 
     setPassword(e.target.value);
