@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./login.css";
+import "./login.sass";
 import "bootstrap/dist/css/bootstrap.css";
 
 import GetAvatar from "./GetAvatar";

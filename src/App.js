@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.sass";
 import logo from "./logo.jpg";
 import Authentication from "./authentication/index";
 
