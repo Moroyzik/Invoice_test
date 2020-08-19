@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.sass";
 import logo from "./logo.jpg";
-import Authentication from "./authentication/index";
+import Authentication from "./authentication/Authentication";
 
 function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-
       <Authentication />
     </div>
   );
